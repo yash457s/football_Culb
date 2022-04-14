@@ -1,0 +1,54 @@
+.teamsList-Container {
+  width: 100%;
+  background-color: lightsteelblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 10px 0 5px 0;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 2px;
+}
+.teamLogos {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.teamImage {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .teamImage {
+    display: none;
+  }
+  .teamLogos p {
+    display: none;
+  }
+  .header-title p {
+    display: none;
+  }
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+.header-title {
+  background-color: purple;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0 40px 0 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.header-title h3,
+h2 {
+  padding: 0;
+}
